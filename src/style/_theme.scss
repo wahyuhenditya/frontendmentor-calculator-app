@@ -1,4 +1,5 @@
-:root {
+:root,
+.theme1 {
 	// Background
 	--bg-main: hsl(222, 26%, 31%);
 	--bg-secondary: hsl(223, 31%, 20%);
@@ -14,9 +15,13 @@
 	--keys-bg-300: hsl(225, 21%, 49%);
 	--keys-shadow-300: hsl(224, 28%, 35%);
 
+	--keys-text-reg: var(--text-300);
+	--keys-text-special: var(--text-100);
+	--keys-text-submit: var(--text-100);
+
 	// Text
-	--text-100: hsl(0, 0, 100%);
-	--text-200: hsl(0, 0, 100%);
+	--text-100: hsl(0, 0%, 100%);
+	--text-200: hsl(0, 0%, 100%);
 	--text-300: hsl(221, 14%, 31%);
 }
 
@@ -36,8 +41,14 @@
 	--keys-bg-300: hsl(185, 42%, 37%);
 	--keys-shadow-300: hsl(185, 58%, 25%);
 
+	--keys-text-reg: var(--text-300);
+	--keys-text-special: var(--text-100);
+	--keys-text-submit: var(--text-100);
+
 	// Text
+	--text-100: hsl(0, 0%, 100%);
 	--text-200: hsl(60, 10%, 19%);
+	--text-300: hsl(221, 14%, 31%);
 }
 
 .theme3 {
@@ -56,7 +67,12 @@
 	--keys-bg-300: hsl(281, 89%, 26%);
 	--keys-shadow-300: hsl(285, 91%, 52%);
 
+	--keys-text-reg: var(--text-200);
+	--keys-text-special: var(--text-100);
+	--keys-text-submit: var(--text-300);
+
 	// Text
+	--text-100: hsl(0, 0%, 100%);
 	--text-200: hsl(52, 100%, 62%);
 	--text-300: hsl(198, 20%, 13%);
 }
