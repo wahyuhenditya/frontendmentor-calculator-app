@@ -1,0 +1,62 @@
+:root {
+	// Background
+	--bg-main: hsl(222, 26%, 31%);
+	--bg-secondary: hsl(223, 31%, 20%);
+	--bg-screen: hsl(223, 36%, 15%);
+
+	// Keys
+	--keys-bg-100: hsl(30, 25%, 89%);
+	--keys-shadow-100: hsl(28, 16%, 65%);
+
+	--keys-bg-200: hsl(6, 63%, 50%);
+	--keys-shadow-200: hsl(6, 70%, 34%);
+
+	--keys-bg-300: hsl(225, 21%, 49%);
+	--keys-shadow-300: hsl(224, 28%, 35%);
+
+	// Text
+	--text-100: hsl(0, 0, 100%);
+	--text-200: hsl(0, 0, 100%);
+	--text-300: hsl(221, 14%, 31%);
+}
+
+.theme2 {
+	// Background
+	--bg-main: hsl(0, 0%, 90%);
+	--bg-secondary: hsl(0, 5%, 81%);
+	--bg-screen: hsl(0, 0%, 93%);
+
+	// Keys
+	--keys-bg-100: hsl(45, 7%, 89%);
+	--keys-shadow-100: hsl(35, 11%, 61%);
+
+	--keys-bg-200: hsl(25, 98%, 40%);
+	--keys-shadow-200: hsl(25, 99%, 27%);
+
+	--keys-bg-300: hsl(185, 42%, 37%);
+	--keys-shadow-300: hsl(185, 58%, 25%);
+
+	// Text
+	--text-200: hsl(60, 10%, 19%);
+}
+
+.theme3 {
+	// Background
+	--bg-main: hsl(268, 75%, 9%);
+	--bg-secondary: hsl(268, 71%, 12%);
+	--bg-screen: hsl(268, 71%, 12%);
+
+	// Keys
+	--keys-bg-100: hsl(268, 47%, 21%);
+	--keys-shadow-100: hsl(290, 70%, 36%);
+
+	--keys-bg-200: hsl(176, 100%, 44%);
+	--keys-shadow-200: hsl(177, 92%, 70%);
+
+	--keys-bg-300: hsl(281, 89%, 26%);
+	--keys-shadow-300: hsl(285, 91%, 52%);
+
+	// Text
+	--text-200: hsl(52, 100%, 62%);
+	--text-300: hsl(198, 20%, 13%);
+}
