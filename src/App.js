@@ -39,7 +39,7 @@ function App() {
 				</div>
 			</div>
 			<div className="screen">
-				<span>123456</span>
+				<span>399,981</span>
 			</div>
 			<div className="operation">{populateButton()}</div>
 		</div>

@@ -23,6 +23,12 @@
 	--text-100: hsl(0, 0%, 100%);
 	--text-200: hsl(0, 0%, 100%);
 	--text-300: hsl(221, 14%, 31%);
+
+	--radius: 0.4vw;
+
+	@media screen and (orientation: portrait) {
+		--radius: 1.5vh;
+	}
 }
 
 .theme2 {
