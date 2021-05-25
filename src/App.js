@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import classnames from 'classnames';
 import data from 'buttonData';
+import { checkColorScheme } from 'helper';
 
 function App() {
 	const [input, setInput] = useState([0]);
-	const [theme, setTheme] = useState(window.localStorage.getItem('theme') || 1);
+	const [theme, setTheme] = useState(
+		window.localStorage.getItem('theme') || checkColorScheme()
+	);
 
 	useEffect(() => {
 		changeTheme(theme);
