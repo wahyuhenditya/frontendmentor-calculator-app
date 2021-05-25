@@ -3,7 +3,8 @@
 @import 'theme';
 
 html,
-body {
+body,
+#root {
 	font-family: 'Spartan';
 	font-weight: 700;
 	height: 100%;
@@ -18,9 +19,7 @@ input {
 	color: var(--text-100);
 }
 
-body {
-	background-color: var(--bg-main);
-	counter-reset: count;
+#root {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -32,6 +31,11 @@ body {
 	@include media {
 		display: initial;
 	}
+}
+
+body {
+	background-color: var(--bg-main);
+	counter-reset: count;
 }
 
 .App {
