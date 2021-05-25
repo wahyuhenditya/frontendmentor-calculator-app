@@ -1,11 +1,16 @@
-@import "reset";
-@import "mixins";
-@import "theme";
+@import 'reset';
+@import 'mixins';
+@import 'theme';
 
 html,
 body {
+	font-family: 'Spartan';
+	font-weight: 700;
 	height: 100%;
-	font-family: "Spartan";
+}
+
+input {
+	font-family: 'Spartan';
 	font-weight: 700;
 }
 
@@ -23,14 +28,19 @@ body {
 	* {
 		transition: background-color 300ms ease, color 300ms ease;
 	}
+
+	@include media {
+		display: initial;
+	}
 }
 
 .App {
-	flex-basis: 28%;
+	max-width: 900px;
 
 	@include media {
-		height: 90%;
-		flex-basis: 90%;
+		height: 100%;
+		padding: 5vw;
+		margin: 0 auto;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
@@ -61,6 +71,10 @@ body {
 		.theme {
 			display: flex;
 			align-items: center;
+
+			@include media {
+				padding-top: 3vh;
+			}
 
 			> span {
 				text-transform: uppercase;
@@ -146,10 +160,17 @@ body {
 			padding: 0 3vh;
 		}
 
-		span {
+		input {
 			font-size: 2vw;
 			color: var(--text-200);
 			margin-bottom: -0.5vw;
+			border: 0;
+			background-color: transparent;
+			text-align: right;
+
+			&:focus {
+				outline: none;
+			}
 
 			@include media {
 				font-size: 5.5vh;
@@ -207,7 +228,8 @@ body {
 				}
 			}
 
-			&.special {
+			&.del,
+			&.reset {
 				text-transform: uppercase;
 				background-color: var(--keys-bg-300);
 				box-shadow: 0 0.15vw 0 var(--keys-shadow-300);
