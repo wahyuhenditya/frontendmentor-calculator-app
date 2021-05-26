@@ -25,6 +25,20 @@ Users should be able to:
 - Adjust the color theme based on their preference
 - **Bonus**: Have their initial theme preference checked using `prefers-color-scheme` and have any additional changes saved in the browser
 
+### Screenshot
+
+- Desktop Layout
+
+![Dark](https://live.staticflickr.com/65535/51204681971_f89d554ba1_n.jpg)
+![Light](https://live.staticflickr.com/65535/51204888303_3be9951361_n.jpg)
+![Purple](https://live.staticflickr.com/65535/51203966517_f686171c63_n.jpg)
+
+- Mobile Layout
+
+![Dark](https://live.staticflickr.com/65535/51203966557_585235864a_w.jpg)
+![Light](https://live.staticflickr.com/65535/51204888318_8738c0cebe_w.jpg)
+![Purple](https://live.staticflickr.com/65535/51205749500_db92f928f9_w.jpg)
+
 ### Links
 
 - Solution URL: [Solution Link](https://github.com/wahyuhenditya/frontendmentor-calculator-app)
