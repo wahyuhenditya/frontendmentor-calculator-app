@@ -29,9 +29,9 @@ Users should be able to:
 
 - Desktop Layout
 
-![Dark](https://live.staticflickr.com/65535/51204681971_f89d554ba1_n.jpg)
-![Light](https://live.staticflickr.com/65535/51204888303_3be9951361_n.jpg)
-![Purple](https://live.staticflickr.com/65535/51203966517_f686171c63_n.jpg)
+![Dark](https://live.staticflickr.com/65535/51204681971_f89d554ba1.jpg)
+![Light](https://live.staticflickr.com/65535/51204888303_3be9951361.jpg)
+![Purple](https://live.staticflickr.com/65535/51203966517_f686171c63.jpg)
 
 - Mobile Layout
 
